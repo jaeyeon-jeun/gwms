@@ -1,0 +1,96 @@
+
+.gnb-wrapper {
+    width: 100%;
+    height:94px;
+    background-color: orange;
+    
+}
+.gnb-top {
+    width: inherit;
+    height: 50px;
+    background-color: white;
+}
+
+.gnb-top > div {
+    display: inline-block;
+}
+.gnb-top > div:first-child {
+    width: 140px;
+    background-color: yellow;
+}
+
+.gnb-top > div:nth-child(2) {
+    width: 60%;
+    min-width:10%;
+    color: slategrey;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.gnb-top .user-info {
+    /*background-color: salmon;*/
+
+}
+
+.user-info > div {
+    display: inline-block;    
+}
+
+.logo > a > img{
+    height: 50px;
+    vertical-align: middle;
+ 
+}
+.user-info-icon > a > img {
+    height: 30px;
+    vertical-align: middle;
+}
+.user-info > div:nth-child(2) {
+    font-weight: bold;
+}
+.user-info > div:nth-child(3) {
+    padding-left: 20px;
+}
+
+/*버튼*/
+
+
+
+  #logout_btn {
+    background:gray;
+    color:#fff;
+    border:none;
+    position:relative;
+    height:25px;
+    font-size:13px;
+   /* padding:0 2em;*/
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
+  }
+  #logout_btn:hover{
+    background:#fff;
+    color: gray;
+  }
+  #logout_btn:before,#logout_btn:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: gray;
+    transition:400ms ease all;
+  }
+  #logout_btn:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+  }
+  #logout_btn:hover:before,#logout_btn:hover:after{
+    width:100%;
+    transition:800ms ease all;
+  }
+  
+  

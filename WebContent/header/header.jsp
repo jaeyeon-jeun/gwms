@@ -1,0 +1,52 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+
+<link rel="stylesheet" href="/gwms/header/header.css"></link>
+<link rel="stylesheet" href="/gwms/header/styles.css">
+<script src="./header.js" type="text/javascript"></script>
+<meta charset='utf-8'>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+<script src="script.js"></script>
+
+
+<div class="gnb-wrapper">
+
+    <div class="gnb-top">
+        <div class="logo">
+            <a href="#">
+               <img src="/gwms/assets/image/logo.jpg"alt="국립암센터 로고"  >
+            </a>
+        </div>
+        <div>
+          
+            관리자 페이지
+        </div>
+
+        <div class="user-info">
+           <div class="user-info-icon">
+                <a href="#">
+                    <img src="/gwms/assets/image/manager_icon.png" alt="관리자" >
+                </a>
+           </div> 
+           <div>
+               전재연님 (시스템 관리자)
+           </div>
+           <div>
+               <button id="logout_btn">로그아웃</button>
+           </div>
+        </div>
+    </div>
+
+    <!-- -------------------------------------------------------- -->
+
+    <div id="gnb-botton">
+        <ul>
+            <li><a href='#'><span>관리자</span></a></li>
+            <li class='last'><a href='#'><span>시스템 관리자</span></a></li>
+         </ul>
+    </div>
+
+</div>

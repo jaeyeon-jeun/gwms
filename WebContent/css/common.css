@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+*{
+		text-decoration : none;
+		font-family: '나눔 고딕', '맑은 고딕', '굴림', arial;
+}
+
+
+
+html body {
+	  height:100%;
+	  margin:0px;
+	  padding:0px;
+	  width:100%;  
+	  min-width:1285px;
+	}
+
+#header {
+	height:94px;
+	background-color: red;
+}
+#container{
+	height:100%
+	
+}
+#footer{
+	
+	height: 70px;
+}

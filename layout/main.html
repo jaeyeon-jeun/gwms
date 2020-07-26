@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>GWMS Main</title>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript">
+          $(document).ready(function(){
+          //   $("#header").load("/header/header.html") 
+          document.getElementById("header").innerHTML='<object type="text/html" data="./header/header.html"></object>';   
+          document.getElementById("footer").innerHTML='<object type="text/html" data="./footer/footer.html"></object>';
+
+        });
+
+          
+    </script>  
+    
+</head>
+
+<body>
+    <div id="wrap">
+       <div id ="header" style="background-color: red;">
+            header
+       </div>
+        <hr>
+        <div id="container" style="float: left;">
+            <div id="left-menu" style="float: left;">left</div>
+            <div id="menudetail" style="background-color: sandybrown; float: left;">detail</div>
+        </div>
+        <hr>
+        <div id="footer" style="clear: both;">footer</div>
+    </div> <!--겉껍데기 wrap-->
+</body>
+</html>
